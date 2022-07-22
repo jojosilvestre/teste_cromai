@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- CSS Normal -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+ <!-- CSS Materialize -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Hipotenusa</title>
+</head>
+<body>
+
+  <!-- Titulo-->  
+  <main class="main">
+    <section class="calc-hipotenusa">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">Valor da Hipotenusa</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+    </div>
+  </nav>
+
+<!--Cateto Oposto-->
+  <div class="row">
+  <form class="form" id="form">
+        <label for="co">
+          <div class="col s4 card horizontal red darken-2 white-text card-small"> <h5 class="header"> Cateto oposto
+          <input name="co" id="co" placeholder="Entre com o valor" type="number" /> </h2>
+        </label>
+      </div>
+
+      <!--Cateto Adjacente-->
+      <label for="ca">
+        <div class="col s4 card horizontal amber darken-2 white-text card-small"> <h5 class="header">Cateto adjacente
+            <input name="ca" id="ca" placeholder="Entre com o valor" type="number" /> </h2>
+        </label>  
+      </div>
+     
+     <!--Resultado-->
+    <label for="hipotenusa">
+          <div class="col s4 card green accent-3 white-text card-small"><h5 class="header">Hipotenusa
+          <input disabled="disabled" name="hipotenusa" id="hipotenusa" /></h5>
+        </label>
+      </div>
+    </div> 
+    <div class="container">
+      <p class="center-align">
+
+        <!--Botão-->
+        <button class="waves-effect waves-light btn pulse light-blue darken-1">Calcular</button>
+      </p>
+      </div>
+      </form>
+    </section>
+  </main>
+
+  <!--JavaScript Normal-->
+  <script src="script.js"></script>
+
+   <!-- JavaScript Materialize -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>

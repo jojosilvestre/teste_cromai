@@ -1,0 +1,14 @@
+/* Cor da barra de navegação */
+.nav-wrapper {
+  background-color: #039be5 !important;
+  
+}
+
+/* Tirar margem e espaço */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
